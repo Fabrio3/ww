@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #e5e5d9;
+      }
+      header {
+        background-color: #e3d3d3;
+        padding: 15px;
+      }
+      .logo {
+        width: 100px;
+        margin-right: 10px;
+      }
+      header h1 {
+        float: right;
+      }
+      .indice {
+        display: flex; /*desplegamos en una linea*/
+        background-color: #e3d3d3; /*color de fondo*/
+        padding: 5px; /*espacio entre la caja*/
+        float: right; /*ubicacion en la derecha*/
+      }
+      /*.(nombre de la clase)*/
+      .indice a {
+        /* todos las etiquetas a dentro de menu*/
+        color: rgb(239, 156, 14); /*color de la letra*/
+        text-align: center; /*alineacion al centro*/
+        padding: 14px 16px; /*color de la letra (arriba, derecha,abajo,izquierda)*/
+        text-decoration: none; /*indicamos que no tiene decoracion*/
+      }
+
+      menu a:hover {
+        /*en el menu y cubra la etiqueta a cambia de color*/
+        background-color: #ddd; /*indicamos el color*/
+      }
+      .contenido {
+        margin-top: 5px; /*le damos espacio de margen (top=arriba,bot=abajo,rigth=derecha,left=izquierda)*/
+      }
+      #imagen {
+        /* para centrar imagen #id .class*/
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+      }
+
+      .texto {
+        /* modifica la tipografia*/
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        /* modifica el tamaño de la letra*/
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="IMAGENES/logo.jpg" alt="Logo" />
+      </div>
+
+      <h1>SOCIEDAD DE LA NIEVE</h1>
+    </header>
+    <nav class="indice">
+      <a href="#inc">INICIO</a>
+      <a href="#int">INTRODUCCION</a>
+      <a href="#sin">SINOPSIS</a>
+      <a href="#con">CONCLUSION</a>
+      <a href="#refl">REFLEXION</a>
+    </nav>
+    <main class="contenido">
+      <section>
+        <a name="inc"></a>
+        <h2>INICIO</h2>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+
+        <img src="IMAGENES/descarga.jpg" alt="la imagen no esta disponible" id="imagen" />
+
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+        <iframe width="700" height="400" src="https://www.youtube.com/embed/rjBHugEYUog" 
+        title="La SOCIEDAD de la NIEVE desde OTRA PERSPECTIVA | Relato y Reflexiones" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+      </section>
+      <section>
+        <a id="int"></a>
+        <h2 class="texto"></h2>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+      </section>
+      <section>
+        <a id="sin"></a>
+        <h2 class="texto"></h2>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+      </section>
+      <section>
+        <a id="con"></a>
+        <h2 class="texto"></h2>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+      </section>
+      <section>
+        <a id="refl"></a>
+        <h2 class="texto"></h2>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p class="texto"></p>
+    </footer>
+  </body>
+</html>
